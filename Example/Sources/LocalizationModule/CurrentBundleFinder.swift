@@ -1,13 +1,13 @@
 //
 //  CurrentBundleFinder.swift
-//  SwiftUIBundleFinderExample
+//  swiftui-preview-bundle-finder
 //
 //  Created by Braden Scothern on 4/5/23.
 //  Copyright © 2023 Braden Scothern. All rights reserved.
 //
 
 import Foundation
-import SwiftUIBundleFinder
+import SwiftUIPreviewBundleFinder
 
 extension Foundation.Bundle {
     @usableFromInline

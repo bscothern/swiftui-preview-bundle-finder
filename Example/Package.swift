@@ -17,7 +17,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(path: "../../SwiftUIBundleFinder"),
+        .package(path: "../../swiftui-preview-bundle-finder"),
         .package(url: "https://github.com/doordash-oss/swiftui-preview-snapshots", from: "1.0.0"),
     ],
     targets: [
@@ -38,7 +38,7 @@ let package = Package(
         .target(
             name: "LocalizationModule",
             dependencies: [
-                .product(name: "SwiftUIBundleFinder", package: "SwiftUIBundleFinder"),
+                .product(name: "SwiftUIPreviewBundleFinder", package: "swiftui-preview-bundle-finder"),
             ],
             resources: [
                 .process("Resources"),

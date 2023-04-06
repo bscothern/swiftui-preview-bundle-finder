@@ -4,18 +4,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftUIBundleFinder",
+    name: "swiftui-preview-bundle-finder",
     products: [
         .library(
-            name: "SwiftUIBundleFinder",
-            targets: ["SwiftUIBundleFinder"]
+            name: "SwiftUIPreviewBundleFinder",
+            targets: ["SwiftUIPreviewBundleFinder"]
         ),
     ],
     dependencies: [
     ],
     targets: [
         .target(
-            name: "SwiftUIBundleFinder",
+            name: "SwiftUIPreviewBundleFinder",
             dependencies: []
         ),
     ]

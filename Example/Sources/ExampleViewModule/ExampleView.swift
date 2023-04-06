@@ -1,6 +1,6 @@
 //
 //  ExampleView.swift
-//  SwiftUIBundleFinderExample
+//  swiftui-preview-bundle-finder
 //
 //  Created by Braden Scothern on 4/5/23.
 //  Copyright © 2023 Braden Scothern. All rights reserved.
@@ -16,6 +16,7 @@ public struct ExampleView: View {
             Text("Test 1", bundle: .package)
             Text("Test 2", bundle: .package)
             Text("Test 3", bundle: .package)
+            Text("Broken")
         }
     }
 
