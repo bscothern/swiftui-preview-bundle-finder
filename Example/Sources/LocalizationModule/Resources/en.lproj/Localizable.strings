@@ -1,0 +1,4 @@
+// Example strings to test are showing up properly in previews.
+"Test 1" = "ABC";
+"Test 2" = "42";
+"Test 3" = "0xBADF00D";
