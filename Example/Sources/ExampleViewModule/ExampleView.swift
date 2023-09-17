@@ -16,7 +16,7 @@ public struct ExampleView: View {
             Text("Test 1", bundle: .package)
             Text("Test 2", bundle: .package)
             Text("Test 3", bundle: .package)
-            Text("Broken")
+            BrokenView()
         }
     }
 
