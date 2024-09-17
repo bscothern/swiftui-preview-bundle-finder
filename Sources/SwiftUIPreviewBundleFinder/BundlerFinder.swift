@@ -52,7 +52,7 @@ extension Bundle {
                 return bundle
             }
         }
-        fatalError("Unable to find bundle: \(bundleName)")
+        return finder.packageModule
         #endif
     }
 }
